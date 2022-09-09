@@ -34,7 +34,7 @@ func newConfig() *Config {
 	config.DSN = os.Getenv("MONGO_CONN_STRING")
 	config.DB = os.Getenv("MONGO_COLLECTION")
 
-	config.BaseURL = "/api"
+	config.BaseURL = "/zones"
 
 	return config
 }
